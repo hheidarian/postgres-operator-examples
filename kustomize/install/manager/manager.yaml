@@ -16,10 +16,6 @@ spec:
       labels:
         postgres-operator.crunchydata.com/control-plane: postgres-operator
     spec:
-      volume:
-      - name: pgo
-      persistentVolumeClaim:
-        claimName: pgo-pvc-sc-vsp-112
       containers:
       - name: operator
         image: postgres-operator
