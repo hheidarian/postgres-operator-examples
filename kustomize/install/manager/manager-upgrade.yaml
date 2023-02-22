@@ -16,9 +16,6 @@ spec:
       labels:
         postgres-operator.crunchydata.com/control-plane: postgres-operator-upgrade
     spec:
-      volume:
-      - name: pgo
-      persistentVolumeClaim: pgo-pvc-sc-vsp-112
       containers:
       - name: operator
         image: postgres-operator-upgrade
