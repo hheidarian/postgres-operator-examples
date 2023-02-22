@@ -19,7 +19,7 @@ spec:
       volume:
       - name: pgo
       persistentVolumeClaim:
-        claimName: pgo-pvc-vsp-112
+        claimName: pgo-pvc-sc-vsp-112
       containers:
       - name: operator
         image: postgres-operator
