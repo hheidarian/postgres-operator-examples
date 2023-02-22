@@ -8,6 +8,7 @@ spec:
   instances:
     - name: instance1
       dataVolumeClaimSpec:
+        storageClassName: sc-vsp-112
         accessModes:
         - "ReadWriteOnce"
         resources:
